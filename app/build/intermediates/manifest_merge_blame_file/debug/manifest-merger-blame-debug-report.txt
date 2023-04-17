@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mismapasgp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:5:5-83
+11-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:6:5-95
+12-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:7:5-97
+13-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\aleja\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.mismapasgp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\aleja\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\aleja\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.mismapasgp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\aleja\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\aleja\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:10:5-36:19
+35        android:allowBackup="true"
+35-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:11:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\aleja\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:12:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:13:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:14:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:15:9-41
+43        android:supportsRtl="true"
+43-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:16:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.MisMapasGP" >
+45-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:17:9-48
+46        <meta-data
+46-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:20:9-22:70
+47            android:name="com.google.android.geo.API_KEY"
+47-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:21:13-58
+48            android:value="AIzaSyDZdKHnPN0rK-CBmq1BDO4t8C0UEN0RD6s" />
+48-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:22:13-68
+49        <meta-data
+49-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:23:9-24:68
+50            android:name="com.google.android.gms.version"
+50-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:23:20-65
+51            android:value="@integer/google_play_services_version" />
+51-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:24:13-66
+52
+53        <activity
+53-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:27:9-35:20
+54            android:name="com.example.mismapasgp.MainActivity"
+54-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:28:13-41
+55            android:exported="true" >
+55-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:29:13-36
+56            <intent-filter>
+56-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:30:13-34:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:31:17-69
+57-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:31:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:33:17-77
+59-->C:\Users\aleja\AndroidStudioProjects\MisMapasGP\app\src\main\AndroidManifest.xml:33:27-74
+60            </intent-filter>
+61        </activity>
+62        <!-- Needs to be explicitly declared on P+ -->
+63        <uses-library
+63-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+64            android:name="org.apache.http.legacy"
+64-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+65            android:required="false" />
+65-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\aleja\.gradle\caches\transforms-3\e45ca4215c1ea80f64a26e48ccfb96af\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\aleja\.gradle\caches\transforms-3\8ca989c75448dd2f78997c3f5666b57c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\aleja\.gradle\caches\transforms-3\8ca989c75448dd2f78997c3f5666b57c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\aleja\.gradle\caches\transforms-3\8ca989c75448dd2f78997c3f5666b57c\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\aleja\.gradle\caches\transforms-3\8ca989c75448dd2f78997c3f5666b57c\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+74            android:authorities="com.example.mismapasgp.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aleja\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aleja\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aleja\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aleja\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+82        </provider>
+83    </application>
+84
+85</manifest>
